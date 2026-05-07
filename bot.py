@@ -9,7 +9,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, Labeled
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes, MessageHandler, filters, PreCheckoutQueryHandler
 
 # === КОНФИГУРАЦИЯ ===
-BOT_TOKEN = 'ВАШ_ТОКЕН_ОТ_BOTFATHER'  # ← Получите в @BotFather
+BOT_TOKEN = 'ВАШ_ТОКЕН'  # ← Получите в @BotFather
 ADMIN_ID = 0  # ← Ваш Telegram ID (узнать: @userinfobot)
 ADMIN_IDS = [ADMIN_ID]  # Добавьте сюда ID других админов, если нужно
 DATA_FILE = 'clicker_data.json'
